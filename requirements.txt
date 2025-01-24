@@ -1,0 +1,19 @@
+asgiref==3.8.1  # Библиотека для поддержки асинхронного программирования в Django
+attrs==24.3.0  # Библиотека для создания классов с атрибутами
+coverage==7.4.1  # Инструмент для анализа покрытия кода тестами
+Django==5.0.2  # Основной фреймворк для веб-разработки на Python
+djangorestframework==3.15.2  # Библиотека для создания RESTful API на Django
+djangorestframework_simplejwt==5.4.0  # Библиотека для работы с JWT в Django REST Framework
+drf-spectacular==0.28.0  # Генератор схем OpenAPI для Django REST Framework
+inflection==0.5.1  # Библиотека для работы с инфлексиями слов
+jsonschema==4.23.0  # Библиотека для валидации JSON-данных по схемам
+jsonschema-specifications==2024.10.1  # Спецификации для JSON Schema
+psycopg2==2.9.10  # PostgreSQL адаптер для Python
+PyJWT==2.10.1  # Библиотека для работы с JSON Web Tokens
+python-decouple==3.8  # Библиотека для управления конфигурацией приложения
+PyYAML==6.0.2  # Библиотека для работы с YAML файлами
+referencing==0.36.1  # Библиотека для работы с ссылками в JSON
+rpds-py==0.22.3  # Библиотека для работы с репрезентативными структурами данных
+sqlparse==0.5.3  # Библиотека для парсинга SQL-запросов
+typing_extensions==4.12.2  # Расширения для аннотаций типов в Python
+uritemplate==4.1.1  # Библиотека для работы с URI-шаблонами

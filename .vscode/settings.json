@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./code",  // Добавляем путь к папке с кодом, чтобы VS Code мог находить модули
+        "${workspaceFolder}/code"  // Абсолютный путь к папке с кодом
+    ],
+    "python.analysis.autoImportCompletions": true  // Включаем автодополнение импортов
+} 

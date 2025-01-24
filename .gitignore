@@ -1,0 +1,136 @@
+# Python
+# Кэшированные файлы Python
+__pycache__/
+# Скомпилированные файлы Python
+*.py[cod]
+# Скомпилированные файлы Jython
+*$py.class
+# Скомпилированные расширения
+*.so
+# Директория Python
+.Python
+# Директория сборки
+build/
+# Директория для разработческих пакетов
+develop-eggs/
+# Директория для дистрибутивов
+dist/
+# Директория для загруженных файлов
+downloads/
+# Директория для пакетов Python
+eggs/
+# Директория для временных файлов пакетов
+.eggs/
+# Директория для библиотек
+lib/
+# Директория для 64-битных библиотек
+lib64/
+# Директория для частей сборки
+parts/
+# Директория для исходных дистрибутивов
+sdist/
+# Директория для переменных
+var/
+# Директория для wheel-пакетов
+wheels/
+# Информация о пакетах
+*.egg-info/
+# Конфигурационный файл установленных пакетов
+.installed.cfg
+# Файлы пакетов
+*.egg
+
+# Virtual Environment
+# Директория виртуального окружения
+venv/
+# Альтернативное имя для виртуального окружения
+env/
+# Альтернативное имя для виртуального окружения
+ENV/
+
+# Django
+# Лог-файлы
+*.log
+# Локальные настройки Django
+local_settings.py
+# Файл базы данных SQLite
+db.sqlite3
+# Журнал базы данных SQLite
+db.sqlite3-journal
+# Директория для загружаемых медиафайлов
+media/
+# Директория для статических файлов
+static/
+
+# Coverage
+# Файл покрытия кода
+.coverage
+# Директория для HTML-отчета о покрытии
+htmlcov/
+# XML-отчет о покрытии
+coverage.xml
+# Файлы покрытия
+*.cover
+
+# VS Code
+# Директория настроек VS Code
+.vscode/*
+# Исключаем настройки
+!.vscode/settings.json
+# Исключаем задачи
+!.vscode/tasks.json
+# Исключаем конфигурации запуска
+!.vscode/launch.json
+# Исключаем расширения
+!.vscode/extensions.json
+
+# PyCharm
+.idea/  # Директория настроек PyCharm
+
+# Environment variables
+# Файл переменных окружения
+.env
+# Локальный файл переменных окружения
+.env.local
+# Локальные файлы переменных окружения с суффиксом
+.env.*.local
+
+# Docker
+# Переопределяющий файл для Docker Compose
+docker-compose.override.yml
+
+# System files
+# Системный файл macOS
+.DS_Store
+# Системный файл Windows
+Thumbs.db
+
+# Project specific
+# Директория миграций
+migrations/*/
+# Исключаем файл инициализации миграций
+!migrations/__init__.py
+# Исключаем первую миграцию
+!migrations/*/0001_initial.py
+
+# Testing
+# Кэш для pytest
+.pytest_cache/
+# Директория для Tox
+.tox/
+# Файлы покрытия
+.coverage.*
+# Кэш-файлы
+.cache
+# XML-отчет для nosetests
+nosetests.xml
+# XML-отчет о покрытии
+coverage.xml
+# Файлы покрытия
+*.cover
+# Файлы покрытия
+*.py,cover
+# Директория для Hypothesis
+.hypothesis/
+# Директория для покрытия
+cover/
