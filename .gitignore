@@ -106,12 +106,8 @@ docker-compose.override.yml
 Thumbs.db
 
 # Project specific
-# Директория миграций
-migrations/*/
-# Исключаем файл инициализации миграций
-!migrations/__init__.py
-# Исключаем первую миграцию
-!migrations/*/0001_initial.py
+# Кэш миграций
+migrations/__pycache__/
 
 # Testing
 # Кэш для pytest
