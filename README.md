@@ -59,7 +59,7 @@ docker-compose up -d --build
 
 1. Клонируйте репозиторий:
 ```bash
-git clone <repository-url>
+git clone git@github.com:tturdumamatovv/MadDevs-1.git
 cd <project-directory>
 ```
 
