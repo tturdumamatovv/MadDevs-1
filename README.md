@@ -9,7 +9,21 @@ API сервис для управления пациентами с JWT-авт�
 cd docker
 ```
 
-2. Запустите проект с помощью Docker Compose:
+2. Создайте файл `.env` в корневой директории проекта со следующим содержимым:
+```env
+DEBUG=True
+ALLOWED_HOSTS=*
+DB_NAME=maddevs
+DB_USER=hello
+DB_PASSWORD=1
+DB_HOST=db
+DB_PORT=5432
+POSTGRES_HOST_AUTH_METHOD=trust
+SITE_ID=1
+SECRET_KEY='django-insecure-#9&!9g3d8cg7fvk_x-_58$qy!-66@su+$oaeuj3(x=1j_p(20r'
+```
+
+3. Запустите проект с помощью Docker Compose:
 ```bash
 docker-compose up -d --build 
 ```
